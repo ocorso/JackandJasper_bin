@@ -1,0 +1,23 @@
+a {
+	color: #d9d5c0;
+}
+h1 {
+	color:#64343d;
+}
+h2 {
+	color:#966241
+	fontSize: 12;
+}
+h3 {
+	color:#5d5b5a;
+	font-size: 10;
+	font-family: _sans;
+}
+p {
+	color:#5d5b5a; 
+	font-size: 10;
+	leading: 9;
+}
+.footer {
+	font-family: _sans;	
+}

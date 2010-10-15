@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <people>
+
+	<image id= "0" src="img/people/0.jpg" />
+	
+	<image id= "1" src="img/people/1.jpg" />
+	
+	<image id= "2" src="img/people/2.jpg" />
+	
+	<image id= "3" src="img/people/3.jpg" />
+	
+	<image id= "4" src="img/people/4.jpg" />
+
+</people>

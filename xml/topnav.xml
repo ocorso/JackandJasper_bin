@@ -1,0 +1,6 @@
+	<items>
+		<item name="PEOPLE" 	link="/pages/people.php?id=1" 	padleft="8" x="8" y="0" width="70" height="37"/>
+		<item name="WINECLUB" 	link="/pages/wineclub.php" 	x="164" y="0" width="57" height="37"/>
+		<item name="ACQUIRE" 	link="http://jackandjaspercellars.securewinemerchant.com"  	x="221" y="0" width="59" height="37"/>
+		<item name="CONTACT" 	link="/pages/contact.php"  	x="280" y="0" width="79" height="37"/>
+	</items>

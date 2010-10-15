@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <story>
+
+	<image id= "0" src="img/story/0.jpg" />
+	
+	<image id= "1" src="img/story/1.jpg" />
+	
+	<image id= "2" src="img/story/2.jpg" />
+	
+	<image id= "3" src="img/story/3.jpg" />
+
+</story>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <slideshow>
+
+	<image id= "0" src="img/slideshow/0.jpg" />
+	
+	<image id= "1" src="img/slideshow/1.jpg" />
+	
+	<image id= "2" src="img/slideshow/2.jpg" />
+	
+	<image id= "3" src="img/slideshow/3.jpg" />
+	
+	<image id= "4" src="img/slideshow/4.jpg" />
+	
+	<image id= "5" src="img/slideshow/5.jpg" />
+
+	<image id= "6" src="img/slideshow/6.jpg" />
+
+	<image id= "7" src="img/slideshow/7.jpg" />
+
+</slideshow>

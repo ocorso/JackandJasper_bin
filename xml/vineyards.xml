@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <vineyards>
+
+	<image id= "0" src="img/vineyards/0.jpg" />
+	
+	<image id= "1" src="img/vineyards/1.jpg" />
+	
+	<image id= "2" src="img/vineyards/2.jpg" />
+	
+	<image id= "3" src="img/vineyards/3.jpg" />
+
+</vineyards>

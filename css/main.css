@@ -1,0 +1,450 @@
+@charset "UTF-8";
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+}
+
+body {
+	color: #5d5b5a;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 11px;
+	margin: 25px auto;
+	background-attachment: fixed;
+	background-color: #a19f90;
+	background-image: url(/img/wood-bg.jpg);
+	background-position: left top;	
+}
+
+
+/* LINK STYLES
+---------------*/
+a {
+	text-decoration: underline;
+	color: #966241;
+	overflow: hidden;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/* LIST STYLES 
+---------------*/
+ul, ul li {
+	list-style: none;
+	margin: 0;	
+	padding: 0;	
+}
+
+
+ul.styled li {
+margin: 5px 0 5px 20px;
+list-style: square;
+line-height: 19px;
+}
+
+table tr td {
+	padding: 5px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+div, img {
+	border: 0;
+	margin: 0;
+	display: block;
+}
+
+
+img.photo_thumb {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+img.photo_thumb_right {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+/* photo_news class is a fixed width image with the border + dropshadow added */
+.photo_news {
+	float: left;
+	margin: 0 15px 0 0;
+	padding: 8px;
+	background: url(/img/bkg_news_image.gif) no-repeat top left;
+}
+
+.photo_news img {
+	border: solid 1px #999;
+	width: 145px;
+	height: 95px;
+	}
+
+.padding_border {
+	border: 1px solid #c3c0ae;
+	padding: 3px;
+}
+
+.clr {
+	clear: both;
+}
+
+
+/* WRAPPERS and BOXES
+-----------------------*/
+#wholewrapper {
+	width: 1004px;
+}
+
+#wholewrapper, #header, #mainnav, #maincontentwrapper {
+	margin: auto;
+}
+
+#header img {
+	border: 8px solid #bdbcb2;
+	width: 930px;
+	border-bottom: none;
+	margin: auto;
+}
+
+
+#maincontentwrapper {
+	width: 930px;
+	border: 8px solid #bdbcb2;
+	border-top: 0;
+	background: url(../img/bg_maincontent.gif) repeat-x top #f1ecd4;
+}
+
+#leftcolumn {
+	width: 290px;
+	float: left;
+}
+
+#content {
+	float: left;
+	margin: 15px;
+}
+
+#contentimage{
+	width: 170px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+#content div {
+	float: left;
+}
+
+#content div.floatleft_50 {
+	width: 200px;
+	padding: 0,0,0,0;
+	margin: 5px;
+}
+
+.subcontent {
+	margin: 35px 0;
+}
+
+.margin-bottom_10 {
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.margin-bottom_35 {
+	margin-bottom: 35px;
+	clear: both;
+}
+
+#leftsubnav {
+	background: url(../img/bg_leftnav.gif) top repeat-x #d9d5c0;
+	width: 290px;
+	float: left;
+}
+
+
+/* MAIN NAV STYLES
+-------------------*/
+
+div#nav ul {
+	background: url(/img/mainnav.png) no-repeat;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	line-height: normal;
+	width: 1004px;
+	height: 111px;
+	background-image: url(../img/mainnav.png);
+	visibility: visible;
+}
+
+div#nav ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: transparent;
+	position: absolute;
+	top: 0;
+}
+
+div#nav ul li.heronav { 
+	top: 42px;
+}
+
+
+div#nav ul li a {
+	 text-indent: -9999px;
+	 text-decoration: none;
+ }
+
+
+div#nav ul li, div#nav ul a {
+	 height: 37px;
+	 display: block;
+}
+
+div#nav ul li.heronav, div#nav ul li.heronav a{
+	height: 69px;
+}
+
+div#nav ul li.home, div#nav ul li.home a {
+	height: 111px;
+}
+
+li#home { 		width: 308px; left: 38px;}
+
+li#people {		width: 123px; left: 348px;}
+li#wineclub { 	width: 116px;  left: 470px; }
+li#acquire { 	width: 100px;  left: 585px; }
+li#contact { 	width: 122px; left: 690px; }
+
+li#TheStory { width: 153px; left: 348px; }
+li#TheVineyards { width: 157px; left: 502px; }
+li#OurWines { width: 155px; left: 658px; }
+
+li#people a:hover, li#wineclub a.on { background:transparent url(../img/mainnav.png) 	-348px -111px no-repeat; }
+li#wineclub a:hover, li#news a.on { background:transparent url(../img/mainnav.png) 		-470px -111px no-repeat; }
+li#acquire a:hover, li#contact a.on { background:transparent url(../img/mainnav.png) 	-585px -111px no-repeat; }
+li#contact a:hover, li#purchase a.on { background:transparent url(../img/mainnav.png) 	-690px -111px no-repeat; }
+
+li#TheStory a:hover, li#TheEstate a.on { background:transparent url(../img/mainnav.png) -348px -153px no-repeat; }
+li#TheVineyards a:hover, li#WineGrowing a.on { background:transparent url(../img/mainnav.png) -502px -153px no-repeat; }
+li#OurWines a:hover, li#OurWines a.on { background:transparent url(../img/mainnav.png) -658px -153px no-repeat; }
+
+/* LEFT SUB NAV STYLES
+-----------------------*/
+
+#leftsubnav li {
+	border-bottom: 1px solid #f1ecd4;
+	text-align: right;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	float: left;
+	width: 290px;
+}
+
+#leftsubnav li a {
+	color: #474436;
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#leftsubnav li a:hover{
+	background: #d0ccb5;
+}
+
+
+#leftsubnav li ul li a:hover {
+	color: #8b8875 ;
+}
+
+
+#leftsubnav li a.on{
+	background: #d0ccb5;
+	color: #87512f;
+}
+
+#leftsubnav li.on {
+	background: #d0ccb5;
+}
+
+#leftsubnav li ul {
+	padding: 0 0 8px 0;
+	background: #D0CCB5;
+}
+
+/* LEFT SUB-SUB NAV 
+--------------------*/
+
+#leftsubnav li ul {float: left;}
+
+#leftsubnav li ul li {
+	border: 0;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 11px;
+
+}
+
+#leftsubnav li ul li a{
+	color: #474436;
+	text-decoration: none;
+	display: block;
+	padding: 5px 40px 5px 0;
+}
+
+#leftsubnav li ul li a.on {
+	color: #966241;
+	font-weight: bold;
+}
+
+
+/* TABLES and BTNS
+--------------------------------------*/
+
+table.styled tr.even {
+	background: #636363;
+}
+
+table.regular td {
+border: 1px solid #c3c0ae;
+}
+
+#winebottle a {
+	width: 140px;
+	height: 414px;
+	display: block;
+	float: right;
+	margin: 10px 0 0 0;
+	text-indent: -9999px;
+	text-decoration: none;
+}
+
+#winebottle a:hover {
+	background-position: -140px 0 !important;
+}
+
+
+/* HEADERS 
+------------*/
+
+h1 { 
+	color: #b4ac89;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.4em;
+}
+
+h2 {
+	color: #966241;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: .07em;
+}
+
+h3 { 
+	color: #b4ac89;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.4em;
+	margin: 20px 0 0 0;
+}
+
+h4 {
+	color: #966241;
+	font-size: 13px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 0;
+	font-weight: normal;
+}
+
+#content p {
+	line-height: 1.75em;
+	/* letter-spacing: .03em; */
+}
+
+
+p.firstpara_after {
+	margin-top: 5px;
+}
+
+/* FOOTER STYLES 
+-------------------*/
+
+#footer {
+	margin: 10px auto;
+	width: 930px;
+	font-size: 10px;
+}
+
+#footer .left {
+	float: left;
+}
+
+#footer .left span {
+	display: block;
+	margin-top: 8px;
+}
+
+#footer .right {
+	float: right;
+}
+
+#footer a {
+	color: #d9d5c0;
+	text-decoration: none;
+}
+
+.footnote {
+	border-top: 1px dotted #b4ac89;
+	font-size: 10px;
+	color: #b4ac89;
+	font-style: italic;
+	clear: both;
+}
+
+/* HOME STYLES 
+-------------------*/
+
+#flashHome  {
+	float: left;
+}
+#wholewrapper #flashHome #maincontentwrapper #content #contentpeople {
+	width: 300px;
+	padding-right: 15px;
+}
+#wholewrapper #maincontentwrapper #content #vineyardcontent {
+	float: right;
+	width: 300px;
+}
+#wholewrapper #maincontentwrapper #storycontent {
+	float: right;
+	width: 450px;
+}
+#wholewrapper #flashHome #maincontentwrapper #leftcolumn #leftsubnav img {
+	width: 290px;
+}

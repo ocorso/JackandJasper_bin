@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.jackandjasper.com/sitemap.php">
+	
+	<url>
+		<loc>http://www.jackandjasper.com/index.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/people.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/news.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/wineclub.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/acquire.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/contact.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/story.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/vineyards.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/wines.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/policy.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/credits.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	<url>
+		<loc>http://www.jackandjasper.com/pages/sitemap.php</loc>
+		<lastmod>2009-10-20</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>.5</priority>
+	</url>
+	
+	
+	
