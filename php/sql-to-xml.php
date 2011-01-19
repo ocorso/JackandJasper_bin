@@ -1,11 +1,10 @@
 <?php 
  include_once("cxn.inc");
 
- $cxn = mysqli_connect($host, $user, $password, $dbname);
- $state = mysqli_real_escape_string($cxn, $_POST["state"]);
- $query = "SELECT * FROM $state";
- $result = mysqli_query($cxn, $query);
-  
+ $cxn 		= new mysqli ($host, $user, $password, $dbname);
+ if ($cnx->connect_error) die('Connect Error (' . $cnx->connect_errno . ') ' . $cnx->connect_error);
+ $query		= 'SELECT * FROM '.$_POST["state"];
+ $result 	= mysqli_query($cxn,  $query);
  echo "<?xml version=\"1.0\"?>\n\n";
  echo "<sections>\n\n";
  while($row = mysqli_fetch_array($result))

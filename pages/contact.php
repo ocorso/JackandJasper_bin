@@ -47,8 +47,8 @@
     <div class="floatleft_50">
     
         <p class="firstpara_after"><strong><b>East Coast Sales Office</b> </strong><br />
-          129 Clinton Street, Suite 2<br />
-          Hoboken, NJ  07030<br />
+         75 Hampshire Hill Road<br />
+         Upper Saddle River, NJ  07458<br />
           E-mail: <a href="mailto:sales@jackandjasper.com">sales@jackandjasper.com</a> </p>
         <p>&nbsp;</p>
         <p><strong><b>West Coast Sales Office</b></strong><br />

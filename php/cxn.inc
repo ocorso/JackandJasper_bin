@@ -1,6 +1,7 @@
 <?php
-$host="97.74.149.116";
- $user="jackandjasper";
- $password="Vamp5near";
+//$host="97.74.149.116";
+ $host="localhost";
+ $user="root";
+ $password="";
  $dbname="jackandjasper";
  ?>
