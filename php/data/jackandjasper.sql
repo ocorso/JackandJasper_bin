@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 97.74.149.116
--- Generation Time: Feb 19, 2011 at 01:49 PM
+-- Generation Time: Feb 26, 2011 at 03:30 PM
 -- Server version: 5.0.91
 -- PHP Version: 5.2.8
 
@@ -111,6 +111,6 @@ CREATE TABLE IF NOT EXISTS `vineyards` (
 -- Dumping data for table `vineyards`
 --
 
-INSERT INTO `vineyards` VALUES(1, 'Winemaking', NULL, 'Along with our team at Crushpad, The Walsh Brothers have created two distinctly different pinot noirs.  Partial steel and partial oak barrel aging has lead to a fantastic finish to each wine.');
+INSERT INTO `vineyards` VALUES(1, 'Winemaking', NULL, 'We work with small,  family owned, grape growers and farmers who share our values of sustainability and minimal intervention. Our single-vineyard designate Pinot Noirs come from carefully selected vineyards. The vineyards are located in prime Pinot Noir growing regions and are known for producing excellent Pinot Noir exemplifying the true characteristics of the variety and the terroir.');
 INSERT INTO `vineyards` VALUES(2, 'La Encantada', NULL, 'La Encantada Vineyard is one of the coolest sites in the region. The vineyard is planted on a ridge which straddles the Santa Ynez River Valley and is open to the full impact of the cooling afternoon maritime breezes. The 100 acre vineyard was planted in 2000 to 96 acres Pinot Noir, 1.9 acres Pinot Blanc, and 1.5 acres Pinot Gris. La Encantada Vineyard is derived from the Monterey Formation. Soil types include: Gazos clay-loam, Ballard fine sandy-loam, and Sta. Lucia shaly clay-loam.');
-INSERT INTO `vineyards` VALUES(3, 'Split Rock ', NULL, 'We work with small,  family owned, grape growers and farmers who share our values of sustainability and minimal intervention. Our single-vineyard designate Pinot Noirs come from carefully selected vineyards. The vineyards are located in prime Pinot Noir growing regions and are known for producing excellent Pinot Noir exemplifying the true characteristics of the variety and the terroir. ');
+INSERT INTO `vineyards` VALUES(3, 'Split Rock ', NULL, 'Split Rock is located in the Sonoma Coast growing region on the west side of Sonoma Mountian.  It’s soils combine with winds from the Petaluma Gap to create a challenging growing environment but one that consistently produces great fruit. ');
