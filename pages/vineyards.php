@@ -8,7 +8,7 @@
 	<!--[if IE 6]><link rel="stylesheet" href="/css/main_ie6.css" type="text/css" media="screen" /><![endif]-->	
 </head>
 <?php require_once('../Connections/jackandjasper.php');
-	if($_GET['id']){
+	if(isset($_GET['id'])){
 			$id = $_GET['id'];}
 		else{
 			$id = 1;}

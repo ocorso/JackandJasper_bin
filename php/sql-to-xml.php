@@ -2,7 +2,7 @@
  include_once("cxn.inc");
 
  $cxn 		= new mysqli ($host, $user, $password, $dbname);
- if ($cnx->connect_error) die('Connect Error (' . $cnx->connect_errno . ') ' . $cnx->connect_error);
+ if ($cxn->connect_error) die('Connect Error (' . $cxn->connect_errno . ') ' . $cnx->connect_error);
  $query		= 'SELECT * FROM '.$_POST["state"];
  $result 	= mysqli_query($cxn,  $query);
  echo "<?xml version=\"1.0\"?>\n\n";
